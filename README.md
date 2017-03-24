@@ -1,5 +1,5 @@
 # Copy and forked from BitBucket. Following is the official announcement
-# MemoryProfiler
+## MemoryProfiler
 
 Unity 5.3a4 has a new very lowlevel memory profiler API. It can tell you which objects got blamed for how much
 c++ memory allocations. On IL2CPP platforms, it will also give you a dump of the entire c# heap, as well as c# type descriptions.
@@ -12,7 +12,7 @@ We have taken the, for us new, approach of shipping the low level API in the Uni
 
 Today, the UI part of this feature is still very rough. We decided to opensource it anyway, as when your project is in a state of "we need to use less memory, what do we do now", you probably care alot more about finding your memory leaks today,  then finding them 6 months from now with nicer buttons and user experience.
 
-# Usage:
+## Usage:
 - Make sure you're running Unity5.3a4 or later.
 - Build an il2cpp project & run it (any il2cpp platform should be fine).
 - Open the user project in this repository.
