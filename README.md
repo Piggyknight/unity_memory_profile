@@ -1,4 +1,4 @@
-# Copy and forked from BitBucket.
+# Forked from BitBucket.
  https://bitbucket.org/Unity-Technologies/memoryprofiler
  
 ## MemoryProfiler
